@@ -11,7 +11,7 @@ particlesJS("particles-js", {
       value: ["#E0FFFF", "#90f8fe", "#25bffe", "#215295", "#fcfdba"]
     },
     shape: {
-      type: "circle"
+      type: ["circle", "circle", "circle", "star"]
     },
     opacity: {
       value: 0.8,  // 不透明度を上げる
