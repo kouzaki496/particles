@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 100,  // パーティクル数を少し増やす
+      value: 100,
       density: {
         enable: true,
         value_area: 800
@@ -14,32 +14,32 @@ particlesJS("particles-js", {
       type: ["circle", "star"]
     },
     opacity: {
-      value: 0.8,  // 不透明度を上げる
+      value: 0.8,
       random: true,
       animation: {
         enable: true,
         speed: 1,
-        opacity_min: 0.4,  // 最小不透明度を上げる
+        opacity_min: 0.4,
         sync: false
       }
     },
     size: {
-      value: 8,  // サイズを大きく
+      value: 6,
       random: true,
       animation: {
         enable: true,
         speed: 2,
-        size_min: 2,  // 最小サイズも大きく
+        size_min: 2,
         sync: false
       }
     },
     move: {
       enable: true,
-      speed: 4,  // 動きを少し速く
+      speed: 4,
       direction: "none",
       random: false,
       straight: false,
-      out_mode: "bounce",  // 画面端で跳ね返るように
+      out_mode: "bounce",
       bounce: false,
       attract: {
         enable: true,
@@ -51,8 +51,8 @@ particlesJS("particles-js", {
       enable: true,
       distance: 150,
       color: "#ffffff",
-      opacity: 0.5,  // 線の不透明度を上げる
-      width: 1  // 線を太く
+      opacity: 0.5,
+      width: 1
     }
   },
   interactivity: {
@@ -71,9 +71,9 @@ particlesJS("particles-js", {
     modes: {
       bubble: {
         distance: 200,
-        size: 12,  // ホバー時のサイズをより大きく
+        size: 9,
         duration: 2,
-        opacity: 1,  // ホバー時は完全に不透明に
+        opacity: 1,
         speed: 3
       },
       push: {
