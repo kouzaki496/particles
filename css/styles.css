@@ -1,4 +1,4 @@
-    /* マージンとパディングをリセット */
+
     * {
       margin: 0;
       padding: 0;
@@ -8,7 +8,7 @@
     body, html {
       width: 100%;
       height: 100%;
-      overflow: hidden;  /* スクロールバーを非表示 */
+      overflow: hidden;
     }
 
     .center-text {
